@@ -1,0 +1,6 @@
+third_party/CoppeliaSim/
+__pycache__/
+*.egg-info/
+.venv/
+
+logs/
