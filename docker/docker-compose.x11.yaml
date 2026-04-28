@@ -1,7 +1,7 @@
 services:
   peract:
     container_name: peract_container
-    image: ${IMAGE:-peract:latest}
+    image: ${IMAGE:-yufengjin/peract:latest}
     build:
       context: ..
       dockerfile: docker/Dockerfile
